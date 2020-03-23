@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'Evolane/CiCdRefCase'
+    publishVstsFeed: 'CI-CD-RefCase/CiCdRefCase'
     allowPackageConflicts: true
   condition: succeeded()
